@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Switch by roose</title>
   <style type="text/css">
 
   body {
@@ -145,6 +145,26 @@
     border: 1px solid #004562;
     box-shadow: 0 2px 5px  rgba(81,208,255,0.5), 0 0 5px rgba(210,243,255,0.5) inset;
   }
+
+  .fork {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .fork__link {
+    background: none repeat scroll 0 0 #F40B00;
+    color: #FFFFFF;
+    display: block;
+    font: bold 16px/1 Helvetica,Arial,sans-serif;
+    margin: 2em -3em 0 0;
+    padding: 10px 40px;
+    text-decoration: none;
+    transform: rotate(45deg);
+    transition: background 0.3s ease 0s;
+  }
+  A.fork__link:hover {
+    background: none repeat scroll 0 0 #0B00F4;
+  }
   </style>
 </head>
 <body>
@@ -156,6 +176,6 @@
         <span></span>
       </label>
   </div>
-
+  <p class="fork"><a class="fork__link" href="https://github.com/roose/Switch">Fork me on GitHub!</a></p>
 </body>
 </html>
